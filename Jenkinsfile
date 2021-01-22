@@ -14,7 +14,6 @@ pipeline {
 	}
 
 	stages {
-	stage('install hugo')
 		stage('build website') {
 			steps {
 				sh 'cd homepage; /tools/hugo'
