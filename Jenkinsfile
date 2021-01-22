@@ -1,7 +1,7 @@
 pipeline {
 		agent {
 	  docker {
-	  	image 'python:3.8-buster'
+	  	image 'alpine:latest'
 	    args '''-v $HOME/.pip:/pip-cache \
 	    		-e _IN_DOCKER=1 \
 	          -v /var/run/docker.sock:/var/run/docker.sock \
