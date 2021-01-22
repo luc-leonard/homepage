@@ -15,7 +15,7 @@ this little website is here to talk about my interests, my projects and store so
 
 
 It was originally a pretext to learn DSP and front-end programming.
-It lead me to learn machine learning, so I could do ssome advanced stuff, like track splitting.
+It lead me to learn machine learning, so I could do some advanced stuff, like track splitting.
 
 ## Machine learning
 I'am also playing with machine learning. I just build a toy classifier for IMDB reviews:
