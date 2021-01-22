@@ -19,7 +19,10 @@ pipeline {
 				sh 'ls -l /target'
 				sh 'ls -l /tools'
 				sh 'ls -l /real_root/'
-				sh 'cd homepage; /tools/hugo'
+				sh 'cp /tools/hugo /hugo'
+				sh 'chmod 777 /hugo'
+				sh 'ls -l /'
+				sh 'cd homepage; /hugo'
 			}
 		}
 		stage('publish') {
