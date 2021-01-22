@@ -2,7 +2,7 @@ pipeline {
 		agent {
 	  docker {
 	  	image 'alpine:latest'
-	    args '''-v home/ubuntu/jenkins/tools/:/tools/ \
+	    args '''-v /home/ubuntu/jenkins/tools/:/tools/ \
 	    		-v /captain/data/nginx-shared/www:/target \
 	          -v /var/run/docker.sock:/var/run/docker.sock \
 	          -v /usr/bin/docker:/usr/bin/docker \
