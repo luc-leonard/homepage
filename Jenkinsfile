@@ -16,7 +16,9 @@ pipeline {
 		stage('build website') {
 			steps {
 				sh 'ls -l /'
+				sh 'ls -l /target'
 				sh 'ls -l /tools'
+				sh 'ls -l /real_root/'
 				sh 'cd homepage; /tools/hugo'
 			}
 		}
