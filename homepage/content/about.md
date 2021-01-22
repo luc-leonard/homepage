@@ -18,8 +18,7 @@ It was originally a pretext to learn DSP and website.
 
 ## Machine learning
 I'am also playing with machine learning. I just build a toy classifier for IMDB reviews:
-https://gist.github.com/luc-leonard/105e9ce66bd90756853ec41478301629
-
+https://gist.github.com/luc-leonard/7cf1c38c9522319f58b4c752d66b073e
 
 
 # Bookmarks
