@@ -1,12 +1,12 @@
 pipeline {
 	agent {
 	  docker {
-	  	image 'ubuntu'
+	  	image 'alpine:latest'
 	    args '''
 	          -v /var/run/docker.sock:/var/run/docker.sock \
 	          -v /usr/bin/docker:/usr/bin/docker \
 	          -v /captain/data/nginx-shared/www /target \
-	          -v /tools:/tools/
+	          -v /tools:/tools/ \
 	          --network sound-visualizer-testing-network \
 	          -e CAPROVER_PASS=$CAPROVER_PASS
 	          '''
