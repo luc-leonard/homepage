@@ -2,8 +2,8 @@ pipeline {
 		agent {
 	  docker {
 	  	image 'alpine:latest'
-	    args '''-v $HOME/.pip:/pip-cache \
-	    		-e _IN_DOCKER=1 \
+	    args '''-v /tools:/tools \
+	    		-v /real_root/captain/data/nginx-shared/www:/target \
 	          -v /var/run/docker.sock:/var/run/docker.sock \
 	          -v /usr/bin/docker:/usr/bin/docker \
 	          --network sound-visualizer-testing-network \
