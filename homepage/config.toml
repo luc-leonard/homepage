@@ -1,5 +1,5 @@
 title = "My stuff"
-baseURL = "http://localhost:7777"
+baseURL = "https://luc-leonard.fr"
 theme = "researcher"
 disableKinds = ["taxonomy", "term"]
 enableEmoji = true
