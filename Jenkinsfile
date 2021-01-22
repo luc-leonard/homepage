@@ -5,7 +5,7 @@ pipeline {
 	    args '''
 	          -v /var/run/docker.sock:/var/run/docker.sock \
 	          -v /usr/bin/docker:/usr/bin/docker \
-	          -v /captain/data/nginx-shared/www /target
+	          -v /captain/data/nginx-shared/www /target \
 	          --network sound-visualizer-testing-network \
 	          -e CAPROVER_PASS=$CAPROVER_PASS
 	          '''
