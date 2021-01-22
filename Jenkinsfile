@@ -20,6 +20,7 @@ pipeline {
 		}
 		stage('publish') {
 			steps {
+				sh 'ls -lR .'
 				sh 'mv homepage/homepage/public/* /target/'
 			}
 		}
