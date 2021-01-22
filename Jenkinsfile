@@ -15,19 +15,12 @@ pipeline {
 	stages {
 		stage('build website') {
 			steps {
-				sh 'ls -l /'
-				sh 'ls -l /target'
-				sh 'ls -l /tools'
-				sh 'ls -l /real_root/'
-				sh 'cp /tools/hugo /hugo'
-				sh 'chmod 777 /hugo'
-				sh 'ls -l /'
-				sh 'cd homepage; /hugo'
+				sh 'cd homepage; /tools/hugo'
 			}
 		}
 		stage('publish') {
 			steps {
-				sh 'cp homepage/public /target'
+				sh 'mv homepage/public/* /target/'
 			}
 		}
 	}
