@@ -4,11 +4,9 @@ title = "About"
 
 # Hello :)
 
-Welcome here
-
 I am a french computer scientist
 
-this little website is here to talk about my interests, and my projects.
+this little website is here to talk about my interests, my projects and store some bookmarks
 
 
 # What am I working on right now ?
@@ -37,4 +35,8 @@ https://gist.github.com/luc-leonard/105e9ce66bd90756853ec41478301629
 * https://techcrunch.com/2017/09/07/ai-that-can-determine-a-persons-sexuality-from-photos-shows-the-dark-side-of-the-data-age/
 
 
-[^1]: you can find this website source code [here](https://github.com/luc-leonard/homepage)
+
+# About this website
+
+This website is built with [Hugo](https://gohugo.io/).
+You can find its sources [here](https://github.com/luc-leonard/homepage)
