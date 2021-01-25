@@ -21,6 +21,9 @@ It lead me to learn machine learning, so I could do some advanced stuff, like tr
 I'am also playing with machine learning. I just build a toy classifier for IMDB reviews:
 https://gist.github.com/luc-leonard/7cf1c38c9522319f58b4c752d66b073e
 
+### tools to make image datasets
+
+https://github.com/deliton/idt
 
 # Bookmarks
 
