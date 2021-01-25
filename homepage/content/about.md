@@ -20,10 +20,11 @@ It lead me to learn machine learning, so I could do some advanced stuff, like tr
 ## Machine learning
 I'am also playing with machine learning. I just build a toy classifier for IMDB reviews:
 https://gist.github.com/luc-leonard/7cf1c38c9522319f58b4c752d66b073e
+more articles [here](/machinelearning)
 
 ### tools to make image datasets
 
-https://github.com/deliton/idt
+
 
 # Bookmarks
 
@@ -35,7 +36,7 @@ https://github.com/deliton/idt
 * https://www.cambridge-mt.com/ms/mtk/
 * https://sigsep.github.io/tutorials/#ismir-2018-music-source-separation-with-dnns-making-it-work
 * https://github.com/ybayle/awesome-deep-learning-music
-
+* https://github.com/deliton/idt
 
 
 # About this website
