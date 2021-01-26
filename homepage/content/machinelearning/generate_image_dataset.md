@@ -39,7 +39,7 @@ SAMPLES_PER_SEARCH: 150
 
 ```
 I just had to run `idt run` and voila ! a very nice labelled image dataset  !
-Now i have a folder 'bears' which contains 3 subfolders 'teddy_bear', 'grizzly' and 'black bear'
+Now, I have a folder 'bears' which contains 3 subfolders 'teddy_bear', 'grizzly' and 'black bear'
 
 Each of this folder contains 150 images. All images were cropped to by 512 * 512.
 
