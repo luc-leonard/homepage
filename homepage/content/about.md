@@ -11,11 +11,13 @@ this little website is here to talk about my interests, my projects and store so
 
 # What am I working on right now ?
 
-## https://sound-visualizer.projects.luc-leonard.fr/ 
-
+## sound visualizer
+A project that creates and display scrolling spectrograms for youtube and soundcloud.
 
 It was originally a pretext to learn DSP and front-end programming.
 It lead me to learn machine learning, so I could do some advanced stuff, like track splitting.
+
+You can try it [here](https://sound-visualizer.projects.luc-leonard.fr/)
 
 ## Machine learning
 more articles [here](/machinelearning)
