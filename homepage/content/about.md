@@ -34,6 +34,11 @@ more articles [here](/machinelearning)
 * https://github.com/ybayle/awesome-deep-learning-music
 * https://github.com/deliton/idt
 
+## NLP
+ * https://deeplylearning.fr/cours-pratiques-deep-learning/detecteur-de-harcelement/
+ * https://amicaproject.be/sites/amicaproject.be/files/Bachelorscriptie%20Maxim%20Baetens.pdf
+ * https://cs.stanford.edu/people/karpathy/cvpr2015.pdf
+
 
 # About this website
 
