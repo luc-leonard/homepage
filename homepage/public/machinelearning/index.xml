@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My adventures in machine learning on My stuff</title>
+    <link>https://luc-leonard.fr/machinelearning/</link>
+    <description>Recent content in My adventures in machine learning on My stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 26 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://luc-leonard.fr/machinelearning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project ideas</title>
+      <link>https://luc-leonard.fr/machinelearning/projects_ideas/</link>
+      <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://luc-leonard.fr/machinelearning/projects_ideas/</guid>
+      <description>Project ideas  a tool to classify my mails in thunderbird using ML and NLP a tool that makes a model play against itself on a board game. It would allow game makers to have a lot of testing on their games A tool to caption NSFW images  </description>
+    </item>
+    
+    <item>
+      <title>How to make your image dataset</title>
+      <link>https://luc-leonard.fr/machinelearning/generate_image_dataset/</link>
+      <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://luc-leonard.fr/machinelearning/generate_image_dataset/</guid>
+      <description>How to make your image dataset I am following the fastai course, wich is really awesome.
+In chapter two, we learn to train an image classifier to classify bears. This requires some images of bear. The book uses the Bing search API.
+I did not want to create an azure account, give my credit card number just to run search of bears. So I started to look for alternative solutions.</description>
+    </item>
+    
+  </channel>
+</rss>

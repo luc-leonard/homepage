@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>How to make your image dataset</title>
+    <meta name="description" content="A simple monospaced resume theme for Hugo.">
+    <meta name="author" content='Olivier Roques'>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="/sass/researcher.min.css">
+
+    
+        <link rel="icon" type="image/ico" href="https://luc-leonard.fr/favicon.ico">
+    
+
+    
+        
+    
+</head>
+
+    <body><div class="container mt-5">
+    <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
+        <a class="navbar-brand mx-0 mr-sm-auto" href="https://luc-leonard.fr">My stuff</a>
+        <div class="navbar-nav flex-row flex-wrap justify-content-center">
+            
+                
+                
+                    <a class="nav-item nav-link" href="/about">
+                        About
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/contact">
+                        Contact
+                    </a>
+                    
+                
+            
+        </div>
+    </nav>
+</div>
+<hr>
+<div id="content">
+<div class="container">
+    <h1 id="how-to-make-your-image-dataset">How to make your image dataset</h1>
+<p>I am following the <a href="https://course.fast.ai/">fastai course</a>, wich is really awesome.</p>
+<p>In chapter two, we learn to train an image classifier to classify bears. This requires some images of bear.
+The book uses the Bing search API.</p>
+<p>I did not want to create an azure account, give my credit card number just to run search of bears.
+So I started to look for alternative solutions.</p>
+<p>After trying many tools, I found this little gem: <a href="https://github.com/deliton/idt">https://github.com/deliton/idt</a></p>
+<p>It is very easy to use.
+It will automatically download images, and store them in a folder whose nane match their label</p>
+<p>Here is the config file I used for the fastai course:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">API_KEY: NONE
+CLASSES:
+- CLASS_NAME: black_bear
+  SEARCH_KEYWORDS: black bear
+- CLASS_NAME: grizzly
+  SEARCH_KEYWORDS: grizzly
+- CLASS_NAME: teddy_bear
+  SEARCH_KEYWORDS: teddy bear
+DATASET_NAME: bears
+ENGINE: duckgo
+IMAGE_SIZE: <span style="color:#ae81ff">512</span>
+RESIZE_METHOD: smartcrop
+SAMPLES_PER_SEARCH: <span style="color:#ae81ff">150</span>
+
+</code></pre></div><p>I just had to run <code>idt run</code> and voila ! a very nice labelled image dataset  !
+Now, I have a folder &lsquo;bears&rsquo; which contains 3 subfolders &lsquo;teddy_bear&rsquo;, &lsquo;grizzly&rsquo; and &lsquo;black bear&rsquo;</p>
+<p>Each of this folder contains 150 images. All images were cropped to by 512 * 512.</p>
+
+</div>
+
+        </div><div id="footer" class="mb-5">
+    
+        <hr>
+        <div class="container text-center">
+            <a href="https://github.com/ojroques/hugo-researcher"><small>Theme by Olivier Roques</small></a>
+        </div>
+    
+</div>
+</body>
+</html>
